@@ -3,11 +3,11 @@
  .holder {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .item {
-    flex: 0 0 calc(33.33% - 10px); /* Adjust the percentage and margin as needed */
+    flex: 0 0 calc(33.33% - 10px); 
     margin: 5px;
     background-color: lightgray;
     padding: 10px;
