@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+ .holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .item {
+    flex: 0 0 calc(33.33% - 10px); /* Adjust the percentage and margin as needed */
+    margin: 5px;
+    background-color: lightgray;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  
+
+
+
+
